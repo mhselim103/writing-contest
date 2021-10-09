@@ -2,7 +2,6 @@ import React from 'react';
 import './Writer.css'
 
 const Writer = (props) => {
-    console.log(props.writer);
     const { name, famous, age, books, img, salary } = props.writer;
     return (
         <div className="col-md-4">
@@ -15,8 +14,12 @@ const Writer = (props) => {
                     <h5>Books:{books}</h5>
                     <h5>Salary:{salary}</h5>
                 </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-primary "><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                <div className="card-footer">
+                    <button
+                        onClick={()=>props.handleAddToCart(props.writer)}
+                        type="button" className="btn btn-primary ">
+                        <i className="fas fa-plus-circle"
+                        ></i>Hire Writer</button>
                 </div>
             </div>
             

@@ -1,12 +1,25 @@
 import React from 'react';
 
 const Cart = (props) => {
+    const { cart} = props;
+    let totalCost = 0;
+    
+    for (const writer of cart) {
+        totalCost = totalCost + writer.salary;
+        
+    }
     return (
-        <div >
-            <h1><i class="fas fa-shopping-cart"></i></h1>
+        <div>
+            {/* <h3><i className="fas fa-shopping-cart"></i></h3> */}
             <div className="card">
                 <div className="card-body">
-                    <h3>Name:</h3>
+                    <h3>Hired Writers :{cart.length}</h3>
+                    <h3>Writer's Cost :{totalCost}</h3>
+                    {
+                        cart.map(writer => <li className="bg-primary text-white fw-bold text-center mb-2">
+                            {writer.name}
+                        </li>)
+                    }
                 </div>
             </div>
             
