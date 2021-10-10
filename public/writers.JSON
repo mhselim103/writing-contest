@@ -1,26 +1,26 @@
 [
     {
-        "id": 1,
-        "name": "J K Rowling",
-        "famous": "Novelist & Author",
-        "age": 56,
+        "id": 1121,
+        "name": "Zafar Iqbal",
+        "famous": "Physicist, writer, columnist",
+        "age": 68,
         "birthplace": "Yate",
-        "books": 27,
-        "salary":300000,
-        "img": "https://pyxis.nymag.com/v1/imgs/4cb/77a/adc567779411beadc50eaab68b8fccbd78-7-jkrowling.rsquare.w700.jpg"
+        "books": 200,
+        "salary": 300000,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Zafar_Iqbal_sir.JPG"
     },
     {
-        "id": 2,
-        "name": "Salman Rushdie",
-        "famous": "British-Indian Novelist",
-        "age": 74,
-        "birthplace": "Mumbai",
-        "books": 8,
+        "id": 454652,
+        "name": "Sadat Hossain",
+        "famous": "Writer, Poet, Film-maker",
+        "age": 37,
+        "birthplace": "Madaripur",
+        "books": 21,
         "salary": 125000,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLlkQqi-Dec8r_YrZKTPUVyxoY9yBp1Y_CaExgRCZrYd1TjzBW05lpiMQ9KhJIkuyZyUg&usqp=CAU"
+        "img": "https://www.varsitian.com/sadat-hossain/biography/imgs/sadat.jpg"
     },
     {
-        "id": 3,
+        "id": 489745643,
         "name": "Richard Dawkins",
         "famous": "Evolutionary Biologist",
         "age": 80,
@@ -30,7 +30,7 @@
         "img": "https://i1.sndcdn.com/artworks-000605519980-lbq6zu-t500x500.jpg"
     },
     {
-        "id": 4,
+        "id": 65417174,
         "name": "Neil Gaiman",
         "famous": "Author",
         "age": 61,
@@ -40,7 +40,17 @@
         "img": "https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/FillWyI2ODAiLCI2ODAiXQ/Neil-Gaiman-c-Kimberley-Butler-web.jpg"
     },
     {
-        "id": 5,
+        "id": 114782,
+        "name": "Taslima Nasrin",
+        "famous": "Writer & Novelist",
+        "age": 78,
+        "birthplace": "Thornaby",
+        "books": 25,
+        "salary": 400000,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/4/48/Taslima_Nasrin_2019.jpg"
+    },
+    {
+        "id": 597529784,
         "name": "Ken Follett",
         "famous": "Novelist",
         "age": 72,
@@ -50,7 +60,7 @@
         "img": "https://www.hayfestival.com/images/product/large/17313.jpg"
     },
     {
-        "id": 6,
+        "id": 937986,
         "name": "Ali Smith",
         "famous": "Academic & Journalist",
         "age": 59,
@@ -60,7 +70,7 @@
         "img": "https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/FillWyI2ODAiLCI2ODAiXQ/Ali-Smith-2015-Sarah-Wood-website.jpg"
     },
     {
-        "id": 7,
+        "id": 54187922167,
         "name": "Zadie Smith",
         "famous": "Novelist & Essayist",
         "age": 46,
@@ -70,7 +80,7 @@
         "img": "https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/FillWyI2ODAiLCI2ODAiXQ/Zadie-Smith-Credit-Dominique-Nabokov-2012-website.jpg"
     },
     {
-        "id": 8,
+        "id": 8927415328,
         "name": "Ian McEwan",
         "famous": "Playwright & Novelist",
         "age": 73,
@@ -80,7 +90,7 @@
         "img": "https://i.guim.co.uk/img/media/f438c92496c7d26a05e1e925a25cd27443dc3ec8/0_61_4470_2682/master/4470.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=cfbb5eb3bcafd49effada8be41000eb0"
     },
     {
-        "id": 9,
+        "id": 9987126716,
         "name": "Kazuo Ishiguro",
         "famous": "Novelist",
         "age": 67,
@@ -90,7 +100,7 @@
         "img": "https://i.guim.co.uk/img/media/96c8224292bc09537d630817e64b47d316100c25/181_1106_2010_1206/master/2010.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=042b593505fe9d84d74ee00f8cd233b3"
     },
     {
-        "id": 10,
+        "id": 579483659710,
         "name": "Hilary Mantel",
         "famous": "Fiction Writer",
         "age": 69,
@@ -100,7 +110,7 @@
         "img": "https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/FillWyI4NDAiLCI4NDAiXQ/Hilary-Mantel-no-credit-web.jpg"
     },
     {
-        "id": 11,
+        "id": 897252245211,
         "name": "Simon Sinek",
         "famous": "Author",
         "age": 48,
@@ -108,15 +118,5 @@
         "books": 6,
         "salary": 150000,
         "img": "https://i1.sndcdn.com/avatars-000603533718-r12pge-t500x500.jpg"
-    },
-    {
-        "id": 12,
-        "name": "Pat Barker",
-        "famous": "Writer & Novelist",
-        "age": 78,
-        "birthplace": "Thornaby",
-        "books": 25,
-        "salary": 400000,
-        "img": "https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/FillWyI2ODAiLCI2ODAiXQ/Pat-Barker-c-Justine-Stoddard-2015-USE-THIS-ONE-web.jpg"
     }
 ]

@@ -1,5 +1,4 @@
 import React from 'react';
-import './Writer.css'
 
 const Writer = (props) => {
     const { name, famous, age, books, img, salary } = props.writer;
