@@ -11,12 +11,14 @@ const Body = () => {
             .then(res => res.json())
             .then(data => setWriters(data))
     }, [])
+    // button handler function 
     const handleAddToCart = writer => {
         const newCart = [...cart, writer];
         setCart(newCart)
     }
     return (
         <div className="row ms-3">
+            {/* writers section  */}
             <div className="writers row col-md-9 g-4 ">
                 {
                     writers.map(writer => <Writer
@@ -26,6 +28,7 @@ const Body = () => {
                     ></Writer>)
                 }
             </div>
+            {/* cart section  */}
             <div className="cart col-md-3 mt-5">
                 <Cart cart={cart}></Cart>
             </div>

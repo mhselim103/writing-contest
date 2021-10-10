@@ -8,7 +8,7 @@ const Writer = (props) => {
                 <img src={img} className="card-img-top rounded-circle w-50 mx-auto" alt="Not found" />
                 <div className="card-body">
                     <h5>Name:{name}</h5>
-                    <h5>Famous for:{famous}</h5>
+                    <h5>Job :{famous}</h5>
                     <h5>Age:{age}</h5>
                     <h5>Books:{books}</h5>
                     <h5>Salary:{salary}</h5>

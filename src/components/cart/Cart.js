@@ -10,7 +10,6 @@ const Cart = (props) => {
     }
     return (
         <div>
-            {/* <h3><i className="fas fa-shopping-cart"></i></h3> */}
             <div className="card">
                 <div className="card-body">
                     <h3>Hired Writers :{cart.length}</h3>
